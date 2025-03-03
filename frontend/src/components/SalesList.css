@@ -1,0 +1,93 @@
+/* Main Container */
+.sales-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Add Sale Button */
+.add-sale-button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Sales List */
+.sales-list {
+  width: 80%;
+  max-width: 900px;  /* Wider for better spacing */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Sale Card */
+.sale-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 144.7%;  /* Takes full width */
+  margin-left: -111.7px;
+  margin-right: 254px;
+}
+
+/* Sale Details */
+.sale-details {
+  flex: 1;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Sale Actions */
+.sale-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Buttons */
+.edit-button, .delete-button {
+  padding: -5px 15px;  /* Consistent padding */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  min-width: 80px;  /* Ensures equal width */
+  height: 40px;  /* Ensures equal height */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Edit Button */
+.edit-button {
+  background: #007bff;
+  color: white;
+}
+
+/* Delete Button */
+.delete-button {
+  background: #dc3545;
+  color: white;
+}
+
+
